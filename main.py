@@ -1,8 +1,11 @@
 """
-실행 진입점.
+Application entry point.
 
-현재는 1주차 구조만 잡혀있는 상태 (scanner가 아직 구현 전이라 실행하면 에러남).
-매주 여기에 그 주차 작업 결과를 이어붙여 나갈 예정.
+Currently contains only the Week 1 project structure.
+The scanner module has not been implemented yet, so running this file
+will result in an error.
+
+Future weekly implementations will be integrated here as the project progresses.
 """
 
 
