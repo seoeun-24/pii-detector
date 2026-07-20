@@ -2,7 +2,7 @@
 
 > Regex + Gemini API Based Personal Information Detection & Masking Tool
 
-Developed during the **LG U+ 2026 Global Summer Internship**.
+ Project during the **LG U+ 2026 Global Summer Internship**.
 
 ---
 
