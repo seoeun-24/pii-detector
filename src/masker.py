@@ -1,7 +1,7 @@
 """
-2주차 작업 파일.
+2week file.
 
-scanner.py가 찾아낸 PII 위치를 기반으로, 원본 텍스트를 마스킹 처리한다.
+scanner.py가 찾아낸 PII 위치를 기반으로, 원본 텍스트를 마스킹 처리.
 원본 파일은 절대 덮어쓰지 않고, output/ 폴더에 마스킹된 사본을 새로 만든다.
 """
 
@@ -22,7 +22,7 @@ def mask_value(value: str) -> str:
 
 def mask_text(text: str, detections: dict) -> str:
     """
-    한 파일의 detections(유형별 탐지 결과)를 바탕으로 텍스트 전체를 마스킹.
+    한 파일의 detections based 바탕으로 텍스트 전체를 마스킹.
     뒤에서부터 치환해야 앞부분의 위치(인덱스)가 안 밀림.
     """
     all_matches = []
