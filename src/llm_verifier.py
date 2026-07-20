@@ -78,4 +78,4 @@ def verify_candidate(context: str, candidate: str, pii_type: str) -> bool:
         return bool(result.get("is_valid", False))
     except json.JSONDecodeError:
         print(f"[경고] LLM 응답 파싱 실패: {text!r}")
-        return True  # 파싱 실패 시 정규식 결과를 그대로 신뢰 (보수적 처리)
+        return True  # 파싱 실패 시 정규식 결과를 그대로 신뢰
