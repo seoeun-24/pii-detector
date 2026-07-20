@@ -1,23 +1,23 @@
 """
-3주차 작업 파일.
+3week file.
 
-더미 데이터셋에 미리 붙여둔 정답 라벨과, 탐지 도구의 실제 출력 결과를 비교해서
-Precision / Recall / F1 스코어를 계산한다.
+Compares the detection tool's output with the ground truth labels in the dummy dataset to calculate
+Precision/ Recall/ F1-score.
 """
 
 
 
 def compute_metrics(predicted: list, truth: list) -> dict:
     """
-    predicted: 탐지 도구가 찾아낸 값들의 리스트
-    truth: 정답(ground truth) 값들의 리스트
+    predicted: List of values detected by the PII detection tool.
+    truth: List of ground truth values.
     """
     predicted_set = set(predicted)
     truth_set = set(truth)
 
-    tp = len(predicted_set & truth_set)   # 둘 다 있는 것 = 제대로 맞춘 것
-    fp = len(predicted_set - truth_set)   # 우리만 찾은 것 = 오탐
-    fn = len(truth_set - predicted_set)   # 정답에만 있는 것 = 놓친 것(미탐)
+    tp = len(predicted_set & truth_set) 
+    fp = len(predicted_set - truth_set)   
+    fn = len(truth_set - predicted_set)   
 
     precision = tp / (tp + fp) if (tp + fp) > 0 else 0.0
     recall = tp / (tp + fn) if (tp + fn) > 0 else 0.0
@@ -33,10 +33,11 @@ def compute_metrics(predicted: list, truth: list) -> dict:
 
 def evaluate_scan_results(scan_results: dict, ground_truth: dict) -> dict:
     """
-    scan_results: scanner.scan_folder()의 반환값
-    ground_truth: ground_truth.json을 로드한 dict
+    scan_results: Output returned by scanner.scan_folder().
+    ground_truth: Dictionary containing the ground truth labels loaded from ground_truth.json.
 
-    PII 유형별로 탐지값/정답값을 모아서 compute_metrics를 적용한다.
+    Collects detected values and corresponding ground truth values for each PII type,
+    then computes Precision, Recall, and F1-score using compute_metrics().
     """
     pii_types = ["phone", "email", "rrn", "foreigner_id"]
 
