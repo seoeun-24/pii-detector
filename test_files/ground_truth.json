@@ -1,0 +1,842 @@
+{
+  "dummy_000.txt": {
+    "phone": [
+      "010-5506-5012"
+    ],
+    "email": [
+      "lee143@gmail.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_001.txt": {
+    "phone": [
+      "019-9928-7873"
+    ],
+    "email": [],
+    "rrn": [
+      "000323-4456778"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_002.txt": {
+    "phone": [
+      "016-6635-5333"
+    ],
+    "email": [
+      "kim748@test.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_003.txt": {
+    "phone": [
+      "019-4733-5741"
+    ],
+    "email": [
+      "kim876@naver.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_004.txt": {
+    "phone": [
+      "018-5010-3677"
+    ],
+    "email": [],
+    "rrn": [
+      "811218-2817870"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_005.txt": {
+    "phone": [
+      "010-4456-6155"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": [
+      "170424-7883300"
+    ]
+  },
+  "dummy_006.txt": {
+    "phone": [
+      "011-3266-9348"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": [
+      "870720-5503457"
+    ]
+  },
+  "dummy_007.txt": {
+    "phone": [
+      "018-1188-2876"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": [
+      "550315-5857168"
+    ]
+  },
+  "dummy_008.txt": {
+    "phone": [
+      "019-5889-9317"
+    ],
+    "email": [
+      "test204@naver.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_009.txt": {
+    "phone": [
+      "011-2290-2403"
+    ],
+    "email": [
+      "hong498@gmail.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_010.txt": {
+    "phone": [
+      "019-6107-7537"
+    ],
+    "email": [],
+    "rrn": [
+      "560915-1359947"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_011.txt": {
+    "phone": [
+      "010-1964-4750"
+    ],
+    "email": [
+      "kim928@gmail.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_012.txt": {
+    "phone": [
+      "017-4119-2545"
+    ],
+    "email": [
+      "kim675@test.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_013.txt": {
+    "phone": [
+      "011-4139-4116"
+    ],
+    "email": [
+      "test460@naver.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_014.txt": {
+    "phone": [
+      "011-7658-8956"
+    ],
+    "email": [],
+    "rrn": [
+      "070313-1509386"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_015.txt": {
+    "phone": [
+      "016-4566-1958"
+    ],
+    "email": [],
+    "rrn": [
+      "950602-1712554"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_016.txt": {
+    "phone": [
+      "018-2113-4853"
+    ],
+    "email": [
+      "choi123@naver.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_017.txt": {
+    "phone": [
+      "016-7484-3144"
+    ],
+    "email": [],
+    "rrn": [
+      "580625-1109767"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_018.txt": {
+    "phone": [
+      "016-2127-5002"
+    ],
+    "email": [],
+    "rrn": [
+      "560923-3741390"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_019.txt": {
+    "phone": [
+      "010-2753-3546"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": [
+      "620528-5196781"
+    ]
+  },
+  "dummy_020.txt": {
+    "phone": [
+      "010-6464-3143"
+    ],
+    "email": [
+      "hong269@naver.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_021.txt": {
+    "phone": [
+      "017-3088-1685"
+    ],
+    "email": [],
+    "rrn": [
+      "450422-2799330"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_022.txt": {
+    "phone": [
+      "011-7755-1406"
+    ],
+    "email": [],
+    "rrn": [
+      "521128-2379766"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_023.txt": {
+    "phone": [
+      "017-6728-6000"
+    ],
+    "email": [],
+    "rrn": [
+      "840413-3392136"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_024.txt": {
+    "phone": [
+      "016-3925-5349"
+    ],
+    "email": [
+      "kim112@test.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_025.txt": {
+    "phone": [
+      "019-8144-1027"
+    ],
+    "email": [
+      "test948@naver.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_026.txt": {
+    "phone": [
+      "016-7592-5844"
+    ],
+    "email": [
+      "test131@naver.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_027.txt": {
+    "phone": [
+      "018-6279-8618"
+    ],
+    "email": [
+      "choi453@naver.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_028.txt": {
+    "phone": [
+      "011-3414-1400"
+    ],
+    "email": [],
+    "rrn": [
+      "780215-4760356"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_029.txt": {
+    "phone": [
+      "019-1090-2746"
+    ],
+    "email": [],
+    "rrn": [
+      "890915-1684482"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_030.txt": {
+    "phone": [
+      "018-9270-7991"
+    ],
+    "email": [
+      "test457@naver.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_031.txt": {
+    "phone": [
+      "010-5681-4841"
+    ],
+    "email": [
+      "park344@company.co.kr"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_032.txt": {
+    "phone": [
+      "018-8633-7812"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": [
+      "971013-8106182"
+    ]
+  },
+  "dummy_033.txt": {
+    "phone": [
+      "017-9818-9947"
+    ],
+    "email": [
+      "test920@naver.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_034.txt": {
+    "phone": [
+      "018-9751-1441"
+    ],
+    "email": [],
+    "rrn": [
+      "101114-2584125"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_035.txt": {
+    "phone": [
+      "016-7211-5558"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": [
+      "281103-5890870"
+    ]
+  },
+  "dummy_036.txt": {
+    "phone": [
+      "010-3496-4908"
+    ],
+    "email": [],
+    "rrn": [
+      "720415-3904150"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_037.txt": {
+    "phone": [
+      "018-1420-6111"
+    ],
+    "email": [
+      "test694@test.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_038.txt": {
+    "phone": [
+      "016-9728-8018"
+    ],
+    "email": [
+      "hong380@gmail.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_039.txt": {
+    "phone": [
+      "011-9548-5425"
+    ],
+    "email": [
+      "test828@test.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_040.txt": {
+    "phone": [
+      "010-9098-6325"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": [
+      "890518-5641722"
+    ]
+  },
+  "dummy_041.txt": {
+    "phone": [
+      "019-7658-9004"
+    ],
+    "email": [],
+    "rrn": [
+      "880821-4569945"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_042.txt": {
+    "phone": [
+      "017-9698-6632"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": [
+      "320404-6430876"
+    ]
+  },
+  "dummy_043.txt": {
+    "phone": [
+      "011-8933-5530"
+    ],
+    "email": [],
+    "rrn": [
+      "120410-2478411"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_044.txt": {
+    "phone": [
+      "019-3068-9042"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": [
+      "430302-7600935"
+    ]
+  },
+  "dummy_045.txt": {
+    "phone": [
+      "017-2213-1878"
+    ],
+    "email": [
+      "lee153@company.co.kr"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_046.txt": {
+    "phone": [
+      "016-1986-2625"
+    ],
+    "email": [
+      "lee641@naver.com"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_047.txt": {
+    "phone": [
+      "016-1534-4792"
+    ],
+    "email": [
+      "park724@company.co.kr"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "dummy_048.txt": {
+    "phone": [
+      "016-3330-2169"
+    ],
+    "email": [],
+    "rrn": [
+      "761227-3560485"
+    ],
+    "foreigner_id": []
+  },
+  "dummy_049.txt": {
+    "phone": [
+      "017-2317-1653"
+    ],
+    "email": [
+      "choi753@company.co.kr"
+    ],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "hard_000.txt": {
+    "phone": [
+      "017 9502 8245"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "hard_001.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [
+      "4111042445824"
+    ],
+    "foreigner_id": []
+  },
+  "hard_002.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [
+      "5802113438977"
+    ],
+    "foreigner_id": []
+  },
+  "hard_003.txt": {
+    "phone": [
+      "019 9889 8569"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "hard_004.txt": {
+    "phone": [
+      "011 5375 9998"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "hard_005.txt": {
+    "phone": [
+      "016 1224 7684"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "hard_006.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [
+      "9005144595158"
+    ],
+    "foreigner_id": []
+  },
+  "hard_007.txt": {
+    "phone": [
+      "017 4122 9327"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "hard_008.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [
+      "7510224255813"
+    ],
+    "foreigner_id": []
+  },
+  "hard_009.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [
+      "5806282831380"
+    ],
+    "foreigner_id": []
+  },
+  "hard_010.txt": {
+    "phone": [
+      "017 1715 6213"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "hard_011.txt": {
+    "phone": [
+      "011 9229 6439"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "hard_012.txt": {
+    "phone": [
+      "010 8692 5342"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "hard_013.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [
+      "0410032761820"
+    ],
+    "foreigner_id": []
+  },
+  "hard_014.txt": {
+    "phone": [
+      "017 2612 2646"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "hard_015.txt": {
+    "phone": [
+      "016 6873 7141"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "hard_016.txt": {
+    "phone": [
+      "010 7267 4945"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "hard_017.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [
+      "3611182177449"
+    ],
+    "foreigner_id": []
+  },
+  "hard_018.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [
+      "5805074994787"
+    ],
+    "foreigner_id": []
+  },
+  "hard_019.txt": {
+    "phone": [
+      "017 6881 5847"
+    ],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "trap_000.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "trap_001.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "trap_002.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "trap_003.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "trap_004.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "trap_005.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "trap_006.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "trap_007.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "trap_008.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "trap_009.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "trap_010.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "trap_011.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "trap_012.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "trap_013.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "trap_014.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "normal_000.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "normal_001.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "normal_002.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "normal_003.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "normal_004.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "normal_005.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "normal_006.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "normal_007.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "normal_008.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "normal_009.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "normal_010.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "normal_011.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "normal_012.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "normal_013.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  },
+  "normal_014.txt": {
+    "phone": [],
+    "email": [],
+    "rrn": [],
+    "foreigner_id": []
+  }
+}
