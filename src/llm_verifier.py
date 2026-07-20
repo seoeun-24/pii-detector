@@ -1,8 +1,11 @@
 """
-2주차 작업 파일.
 
-정규식으로 탐지된 '후보'가 실제 개인정보 문맥이 맞는지,
-Gemini API를 호출해서 2차로 재판단하는 검증 로직.
+Week 2 implementation.
+
+Validates whether candidates detected by regular expressions
+are actual PII based on their surrounding context by calling
+the Gemini API for a second-stage verification.
+
 """
 
 import os
@@ -41,41 +44,60 @@ def verify_candidate(context: str, candidate: str, pii_type: str) -> bool:
         "foreigner_id": "외국인등록번호",
     }.get(pii_type, pii_type)
 
-    prompt = f"""문서에서 "{candidate}"라는 값 바로 앞에 붙은 라벨(이름표) 단어만 보고 판단하는 역할.
-실제로 이 번호가 진짜 존재하는 사람의 정보인지는 신경X. 이건 테스트용 가상 문서라서 실존 여부는 판단 대상X.
+    prompt = f"""
+You are a PII validation assistant.
 
-오직 이 규칙만 적용:
-- 값 바로 앞에 "연락처:", "휴대폰:", "전화:" 같은 라벨이 있으면 → 전화번호로 인정 (true)
-- 값 바로 앞에 "이메일:", "메일:" 같은 라벨이 있으면 → 이메일로 인정 (true)
-- 값 바로 앞에 "주민등록번호:" 라벨이 있으면 → 주민등록번호로 인정 (true)
-- 값 바로 앞에 "외국인등록번호:" 라벨이 있으면 → 외국인등록번호로 인정 (true)
-- 값 바로 앞에 "발주번호:", "일련번호:", "품목코드:" 처럼 다른 종류의 코드/번호 라벨이 있으면 → 오탐 (false)
+Your task is to determine whether the value "{candidate}" is labeled as a {type_name_en}
+based solely on the label immediately preceding it.
 
-문서 전체 내용:
+Do NOT determine whether the value belongs to a real person.
+This is a synthetic test document, so the authenticity or existence of the value is irrelevant.
+
+Apply ONLY the following rules:
+
+- If the label immediately before the value is "Contact:", "Mobile:", or "Phone:", return true.
+- If the label is "Email:" or "E-mail:", return true.
+- If the label is "Resident Registration Number:", return true.
+- If the label is "Foreigner Registration Number:", return true.
+- If the label indicates another type of identifier, such as "Order Number:", "Serial Number:", or "Product Code:", return false.
+
+Document:
+
 \"\"\"{context}\"\"\"
 
-판단 대상 값: "{candidate}"
-이 값은 {type_name_kr}로 라벨링되어 있는가?
+Candidate value:
+"{candidate}"
 
-다른 설명 없이 JSON 한 줄로만 답해: {{"is_valid": true}} 또는 {{"is_valid": false}}"""
+Is this value labeled as a {type_name_en}?
 
-    client = get_client()
+Respond with exactly one JSON object and nothing else.
 
-    from google.genai import types
-    response = client.models.generate_content(
-        model="gemini-flash-lite-latest",
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            response_mime_type="application/json",
-            temperature=0,
-        ),
-    )
+{{"is_valid": true}}
 
-    text = response.text.strip()
+or
 
-    try:
-        result = json.loads(text)
-        return bool(result.get("is_valid", False))
-    except json.JSONDecodeError:
-        print(f"[경고] LLM 응답 파싱 실패: {text!r}")
-        return True  # 파싱 실패 시 정규식 결과를 그대로 신뢰
+{{"is_valid": false}}
+"""
+
+client = get_client()
+
+from google.genai import types
+
+response = client.models.generate_content(
+    model="gemini-flash-lite-latest",
+    contents=prompt,
+    config=types.GenerateContentConfig(
+        response_mime_type="application/json",
+        temperature=0,
+    ),
+)
+
+text = response.text.strip()
+
+try:
+    result = json.loads(text)
+    return bool(result.get("is_valid", False))
+except json.JSONDecodeError:
+    print(f"[Warning] Failed to parse LLM response: {text!r}")
+    # Fall back to the regex result if the response cannot be parsed.
+    return True
